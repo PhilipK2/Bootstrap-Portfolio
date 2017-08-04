@@ -93,9 +93,15 @@ MEDIA QUERIES*/
 	#aboutme{
 		margin-bottom: 0px;
 	}
+	#connect{
+		align-content:center; 
+		text-align:center;
+		justify-content: center;
+	}
 }
 
 //***** WE NEED TO GET THE MEDIA QUERYS IN ORDER SO THE PORTFOLIO PAGE LOOKS
 BETTER IN TABLET AND PHONE MODE, ALSO I NEED TO FIX THE MARGIN-BOTTOM OF "ABOUTME"
 IN TABLET AND PHONE MODE. ALSO ALIGHT CONNECT WITH ME IN THE CENTER ON TABLET AND PHONE.
+IMAGE MAIN PHOTO OF ME GO CENTER ON TAB AND CELL.
 *******************************************************/
