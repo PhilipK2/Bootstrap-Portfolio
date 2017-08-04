@@ -12,12 +12,36 @@ ul{
 	padding-left: 0px;
 }
 a{
-	padding-right: 15px;
-	color: white !important;
+	padding: 10px;
+	
+}
+nav{
+	border: 1px solid black;
 }
 h1{
 	border-bottom: 1px solid black;
 }
+img{
+	border: 1px solid black !important;
+
+}
+
+
+/*********************************************************************************
+*********************************************************************************/
+
+.thumbnail{
+	background-image: url('../images/greenpent.png');
+	border: 1px solid black !important;
+	line-height: 0px !important;
+
+}
+.project{
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
 .jumbotron{
 	text-align: center;
 	background-image: url('../images/retina_wood_@2X.png');
@@ -25,6 +49,7 @@ h1{
 	text-shadow: 1px grey !important;
 	width: 100%;
 	font-weight: 100;
+	border: solid 1px black;
 }
 .footer {
     position: relative;
@@ -34,22 +59,21 @@ h1{
     text-align: center;
     border-radius: 8px;
     background-image: url('../images/retina_wood_@2X.png');
+    border: solid 1px black;
 }
 
 #aboutme{
 	background-image: url('../images/retina_wood.png');
 	border-radius: 8px;
-	margin-bottom: 50px;
-	margin-right: 50px;
+	margin-bottom: 60px;
 	padding:8px;
+	border: solid 1px black;
 }
 #connect{
 	background-image: url('../images/retina_wood.png');
 	border-radius: 8px;
-}
-
-i:hover{
-	color: #b1f6cb;
+	border: solid 1px black;
+	margin-bottom: 15px;
 }
 
 
@@ -57,3 +81,21 @@ i:hover{
 	margin-bottom: 14px;
 }
 
+i:hover{
+	color: #b1f6cb;
+}
+
+//*****************************************************************************
+*******************************************************************************
+MEDIA QUERIES*/
+
+@media screen and (max-width: 640px){
+	#aboutme{
+		margin-bottom: 0px;
+	}
+}
+
+//***** WE NEED TO GET THE MEDIA QUERYS IN ORDER SO THE PORTFOLIO PAGE LOOKS
+BETTER IN TABLET AND PHONE MODE, ALSO I NEED TO FIX THE MARGIN-BOTTOM OF "ABOUTME"
+IN TABLET AND PHONE MODE. ALSO ALIGHT CONNECT WITH ME IN THE CENTER ON TABLET AND PHONE.
+*******************************************************/
