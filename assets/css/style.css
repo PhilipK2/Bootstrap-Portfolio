@@ -21,6 +21,9 @@ nav{
 h1{
 	border-bottom: 1px solid black;
 }
+h2{
+	font-weight: bold;
+}
 img{
 	border: 1px solid black !important;
 
@@ -31,7 +34,7 @@ img{
 *********************************************************************************/
 
 .thumbnail{
-	background-image: url('../images/greenpent.png');
+	background-color: #cfcfcf;
 	border: 1px solid black !important;
 	line-height: 0px !important;
 
@@ -80,6 +83,14 @@ img{
 #submit{
 	margin-bottom: 14px;
 }
+#hangman,
+#crystal,
+#trivia,
+#proj4,
+#proj5 {
+	height: 110px;
+	width: 192px;
+}
 
 i:hover{
 	color: #b1f6cb;
@@ -99,6 +110,13 @@ MEDIA QUERIES*/
 		justify-content: center;
 	}
 }
+
+
+ @media (max-width: 768px) {
+      .col-xs-12 {
+              text-align: center;
+       } 
+    }
 
 //***** WE NEED TO GET THE MEDIA QUERYS IN ORDER SO THE PORTFOLIO PAGE LOOKS
 BETTER IN TABLET AND PHONE MODE, ALSO I NEED TO FIX THE MARGIN-BOTTOM OF "ABOUTME"
